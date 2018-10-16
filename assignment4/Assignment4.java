@@ -14,6 +14,8 @@ public class Assignment4 {
 	 * s = "leetcode" return 0. 
 	 * s = "loveleetcode" return 2.
 	 */
+	
+	//score 2/2
     public int firstUniqChar(String s) {
     	Map<Character, Integer> map = new HashMap<Character, Integer> ();
     	for (int i = 0; i < s.length(); i++) {
