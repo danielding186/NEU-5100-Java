@@ -14,6 +14,8 @@ public class Assignment4 {
 	 * s = "leetcode" return 0. 
 	 * s = "loveleetcode" return 2.
 	 */
+	
+	//score 2/2
     public int firstUniqChar(String s) {
     	Map<Character, Integer> map = new HashMap<Character, Integer> ();
     	for (int i = 0; i < s.length(); i++) {
@@ -41,6 +43,7 @@ public class Assignment4 {
      * Input: 38 Output: 2
      * Explanation: The process is like: 3 + 8 = 11, 1 + 1 = 2. Since 2 has only one digit, return it.
      */
+	//score 2/2
     public int addDigits(int n) {
     	if (n < 10)
     		return n;
@@ -58,6 +61,7 @@ public class Assignment4 {
      *  Given an array nums, write a function to move all 0's to the end of it while maintaining the relative order of the non-zero elements.
      *  Input: [0,1,0,3,12] Output: [1,3,12,0,0]
      */
+	//score 2/2
     public void moveZeroes(int[] nums) {
     	int i = 0, j = 0;
     	while(i < nums.length) {
@@ -76,7 +80,7 @@ public class Assignment4 {
      * Given a string s, find the longest palindromic substring in s. You may assume that the maximum length of s is 1000.
      * Input: "babad" Output: "bab" Note: "aba" is also a valid answer.
      */
-    
+    //score 2/2
     private int maxPalindrome(String p, int index, int mode) {
     	
     	int left = index - 1;
@@ -120,7 +124,7 @@ public class Assignment4 {
   								  [9,6,3] ],
      */
 	
-
+//score 2/2
 	private void rotate_circle(int [][] a, int k) {
 		int n = a.length;
 		if (k >= n/2)
